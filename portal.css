@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+/* a . is used to target a class, a # is used to atger an id */
+nav {
+    display: flex;
+}
+#primary {
+    background-color: red;
+}
+
+a{
+    background-color: lightblue;
+    color: rgb(71, 68, 69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Main */
+
+.background {
+    background-color: lightgreen;
+}
