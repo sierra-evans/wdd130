@@ -1,12 +1,37 @@
-body{
-    background-color: beige;
+body {
+    background-color: white;
 }
-/* a . is used to target a class, a # is used to atger an id */
+/* a . is used to target a class, a # is used to target an id */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 nav {
     display: flex;
+    justify-content: center;
 }
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
 #primary {
-    background-color: red;
+    background-color: white;
 }
 
 a{
@@ -17,8 +42,22 @@ a{
     margin: 5px;
 }
 
+a:hover {
+    background-color: darkgray;
+    color: white
+}
+
 /* Main */
 
 .background {
     background-color: lightgreen;
+}
+
+footer {
+    background-color: lightblue;
+    color: rgb(71, 68, 69);
+}
+
+footer p{
+    text-align: center;
 }
