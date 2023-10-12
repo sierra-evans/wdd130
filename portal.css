@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lora&family=Sedgwick+Ave&display=swap');
+
 body {
     background-color: white;
+    font-family: Kanit, Verdana, sans-serif;
 }
 /* a . is used to target a class, a # is used to target an id */
 #content {
@@ -15,16 +18,20 @@ nav {
 h1 {
     font-size: 2em;
     text-align: center;
+    margin: 50px;
 }
 
 img {
     width: 40%;
     display: block;
-    margin: 0 auto;
+    margin: 80px auto;
+    padding: 40px;
+    border: 3px solid lightblue;
+    box-sizing: border-box;
 }
 
 p {
-    width: 40%;
+    width: 50%;
     margin: 10px auto;
     padding: 10px;
     text-align: center;
