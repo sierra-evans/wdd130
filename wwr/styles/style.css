@@ -246,3 +246,18 @@ nav {
         margin-top: 25px;
     }
 }
+
+/* CSS for Rivers Page */
+
+.title {
+    font-family: Sedgwick Ave, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.river-title {
+    font-family: Sedgwick Ave, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+}
