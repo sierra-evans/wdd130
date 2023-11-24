@@ -249,17 +249,69 @@ nav {
 
 /* CSS for Rivers Page */
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+}
 .title {
     font-family: Sedgwick Ave, Verdana, sans-serif;
     text-align: center;
     font-size: 50px;
     margin: 0 auto;
     padding: 30px;
+    grid-column: 4/8;
+    grid-row: 1/2;
 }
-.river-title {
+/* .river-title {
     font-family: Sedgwick Ave, Verdana, sans-serif;
     padding: 20px;
     margin: 0 auto;
+} */
+.idaho-title {
+    grid-column: 4/8;
+    grid-row: 2/3;
+    margin: 0 auto;
+}
+.idaho-img {
+    grid-column: 1/6;
+    grid-row: 3/5;
+    justify-content: center;
+}
+.idaho-info {
+    grid-column: 6/11;
+    grid-row: 3/5;
+    justify-content: center;
+}
+.utah-title {
+    grid-column: 4/8;
+    grid-row: 5/6;
+    margin: 0 auto;
+}
+.utah-img {
+    grid-column: 6/11;
+    grid-row: 6/8;
+    justify-content: center;
+}
+.utah-info {
+    grid-column: 1/6;
+    grid-row: 6/8;
+    justify-content: center;
+}
+.arizona-title {
+    grid-column: 4/8;
+    grid-row: 8/9;
+    margin: 0 auto;
+}
+.arizona-img {
+    grid-column: 1/6;
+    grid-row: 9/11;
+    justify-content: center;
+}
+.arizona-info {
+    grid-column: 6/11;
+    grid-row: 9/11;
+    justify-content: center;
+    text-align: center;
 }
 
 /* CSS for Contact Page */
